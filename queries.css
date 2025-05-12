@@ -1,0 +1,51 @@
+@media (min-width: 64rem) {
+  .main-container {
+    width: 70vw;
+    margin-right: 15vw;
+    margin-left: 15vw;
+  }
+  .text-container {
+    width: 50%;
+    gap: 1.5rem;
+  }
+  .text-container h1 {
+    font-size: 3rem;
+  }
+  .text-container p {
+    font-size: 1.5rem;
+  }
+  #box {
+    max-width: 35rem;
+  }
+  .section2 {
+    display: flex;
+    justify-content: center;
+  }
+  .section1 {
+    display: flex;
+    gap: 3rem;
+    flex-direction: row;
+  }
+  .contents {
+    max-width: 25rem;
+  }
+  img {
+    margin-left: 2rem;
+  }
+}
+@media (min-width: 84rem) {
+  .main-container {
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+  .text-container {
+    width: 30%;
+    gap: 2rem;
+  }
+  .box-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+  }
+}

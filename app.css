@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 62.5%;
+}
+/* The root element represents one color for boxes */
+:root {
+  --box-color: rgba(33, 41, 54, 255);
+}
+body {
+  background-color: rgba(19, 24, 39, 255);
+  color: white;
+  font-family: sans-serif;
+}
+img {
+  max-width: 25rem;
+  margin-left: 1rem;
+  height: auto;
+  border-radius: 15px;
+  position: relative;
+  right: 2rem;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  width: 80vw;
+  margin-right: 10vw;
+  margin-left: 10vw;
+}
+.text-container {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  text-align: center;
+}
+.text-container h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  color: rgb(226, 237, 245);
+}
+.text-container p {
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: rgb(147, 148, 151);
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+#box {
+  display: flex;
+  max-width: 40rem;
+  flex-direction: column;
+  background-color: var(--box-color);
+  max-height: 50rem;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-radius: 15px;
+  transition: 1.5s ease-in-out;
+}
+.emoji {
+  width: 5rem;
+  height: 5rem;
+  background-color: white;
+  align-self: flex-start;
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.box1 .emoji {
+  background-color: rgba(253, 238, 217, 255);
+}
+.box2 .emoji {
+  background-color: rgba(222, 233, 251, 255);
+}
+.box3 .emoji {
+  background-color: rgba(224, 223, 222, 255);
+}
+#box h3 {
+  font-size: 2rem;
+  letter-spacing: 0.2px;
+  max-width: 40rem;
+  /* line-height: 2.9rem; */
+  font-weight: 600;
+  color: rgb(219, 220, 221);
+}
+#box p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  letter-spacing: 1px;
+  color: rgb(147, 148, 151);
+}
+.contents {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+  max-width: 30rem;
+}
+#box:hover {
+  background-color: rgb(33, 70, 183);
+  cursor: pointer;
+  transform: skew(10deg);
+}
+.box2:hover {
+  transform: skew(10deg);
+}
